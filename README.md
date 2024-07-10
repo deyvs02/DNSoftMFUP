@@ -7,7 +7,7 @@ Python.exe DNSoftMFUP.py -e "MediaFireEMail" -p "MediaFirePassword" -u "RemoteUp
 
 # Notes
 * use double quotes if e.g. your password contains special characters
-* redirect stderr to null to only print the final download URL
+* When the upload is finished, the download url of the file sent to media fire will be saved in a file called link.txt in the DNSoftMFUP.py file usage directory
 * the MediaFire API is pretty buggy, and you might receive an error, because the server hasn't finished calculating the file's checksum yet; in that case, wait a couple of seconds (depending on the filesize) and repeat the command: it will not upload, but instead detect the already uploaded file and return the download URL
 
 # Requisites
@@ -32,7 +32,7 @@ Python.exe DNSoftMFUP.py -e "E-Mail mediafire" -p "Senha mediafire" -u "Nome pas
 
 # Notas
 * use aspas duplas se, por ex. sua senha contém caracteres especiais
-* redirecione stderr para null para imprimir apenas o URL de download final
+* Ao finalizar o upload a url de download do arquivo enviado ao media fire será salva em um arquivo chamado link.txt no diretório de uso do arquvio DNSoftMFUP.py
 * a API MediaFire tem muitos bugs e você pode receber um erro, porque o servidor ainda não terminou de calcular a soma de verificação do arquivo; nesse caso, espere alguns segundos (dependendo do tamanho do arquivo) e repita o comando: ele não fará o upload, mas detectará o arquivo já enviado e retornará o URL de download
 
 # Requisitos
