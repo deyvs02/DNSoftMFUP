@@ -3,7 +3,7 @@ Media Fire Upload
 Quick python3 script to upload files to MediaFire
 
 # Usage:
-Python.exe DNSoftMFUP.py -e <MediaFireEMail> -p <MediaFirePassword> [-u <RemoteUploadFolder>] -f <Filepath>
+Python.exe DNSoftMFUP.py -e "MediaFireEMail" -p "MediaFirePassword" -u "RemoteUploadFolder" -f "Filepath"
 
 # Notes
 use double quotes if e.g. your password contains special characters
@@ -30,7 +30,7 @@ Upload Média Fire
 Script python3 rápido para fazer upload de arquivos para o MediaFire
 
 # Como Usar:
-Python.exe DNSoftMFUP.py -e "E-Mail mediafire" -p <Senhamediafire> [-u <Nomepastauploadmediafire>] -f <Caminhodoarquivonopcparaupload>
+Python.exe DNSoftMFUP.py -e "E-Mail mediafire" -p "Senha mediafire" -u "Nome pasta upload mediafire" -f "Caminho do arquivo no pc para upload"
 
 # Notas
 use aspas duplas se, por ex. sua senha contém caracteres especiais
