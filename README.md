@@ -7,9 +7,7 @@ Python.exe DNSoftMFUP.py -e "MediaFireEMail" -p "MediaFirePassword" -u "RemoteUp
 
 # Notes
 * use double quotes if e.g. your password contains special characters
-  
 * redirect stderr to null to only print the final download URL
-  
 * the MediaFire API is pretty buggy, and you might receive an error, because the server hasn't finished calculating the file's checksum yet; in that case, wait a couple of seconds (depending on the filesize) and repeat the command: it will not upload, but instead detect the already uploaded file and return the download URL
 
 # Requisites
