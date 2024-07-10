@@ -30,7 +30,7 @@ Upload Média Fire
 Script python3 rápido para fazer upload de arquivos para o MediaFire
 
 # Como Usar:
-Python.exe DNSoftMFUP.py -e <E-Mailmediafire> -p <Senhamediafire> [-u <Nomepastauploadmediafire>] -f <Caminhodoarquivonopcparaupload>
+Python.exe DNSoftMFUP.py -e E-Mailmediafire -p <Senhamediafire> [-u <Nomepastauploadmediafire>] -f <Caminhodoarquivonopcparaupload>
 
 # Notas
 use aspas duplas se, por ex. sua senha contém caracteres especiais
