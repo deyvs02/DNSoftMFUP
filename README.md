@@ -16,17 +16,19 @@ mediafire (SDK)
 
 # More information
 https://www.mediafire.com/developers/core_api/1.5
+
 https://pypi.org/project/mediafire/
+
 https://github.com/MediaFire/mediafire-python-open-sdk
 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-#DNSoftMFUP
+# DNSoftMFUP
 Upload Média Fire
 Script python3 rápido para fazer upload de arquivos para o MediaFire
 
-Python.exe DNSoftMFUP.py -e <E-Mail media fire> -p <Senha media fire> [-u <Nome pasta upload media fire>] -f <Caminho do arquivo no pc para upload>
+Python.exe DNSoftMFUP.py -e <E-Mailmediafire> -p <Senhamediafire> [-u <Nomepastauploadmediafire>] -f <Caminhodoarquivonopcparaupload>
 
 # Notas
 use aspas duplas se, por ex. sua senha contém caracteres especiais
@@ -40,5 +42,7 @@ mediafire (SDK)
 
 # Mais Informações
 https://www.mediafire.com/developers/core_api/1.5
+
 https://pypi.org/project/mediafire/
+
 https://github.com/MediaFire/mediafire-python-open-sdk
